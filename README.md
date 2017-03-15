@@ -1,5 +1,6 @@
 This is my custom width and height map carousel plugin
 html:
+<pre>
 <div class="myCarousel">
 		<a href="javascript:;" class="prev">&lt;</a>
 		<a href="javascript:;" class="next">&gt;</a>
@@ -14,6 +15,7 @@ html:
 			<li><a href="javascript:;"></a></li>
 		</ol>
 	</div>
+</pre>
 js:$('.myCarousel').myCarousel(w,h);
 Note: the default value is 1 W 640px h; the default value is 270px; you can customize the carousel figure's width and height
 2 should be written UL and ol
